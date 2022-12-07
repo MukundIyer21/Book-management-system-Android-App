@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Bookish");
-                builder.setMessage("Designed and developed by Mukund Iyer , Darshan Mahajan, and  Noel Lawrence");
+                builder.setMessage("Designed and developed by Mukund Iyer");
                 builder.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
